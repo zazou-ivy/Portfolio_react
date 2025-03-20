@@ -1,0 +1,207 @@
+.qualification__container {
+    max-width: 1300px;
+}
+
+.qualification__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.7px  rgb(216, 125, 7);    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.qualification__button:hover {
+    color:  rgb(216, 125, 7);
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__active {
+    color: rgb(216, 125, 7);
+}
+
+.qualification__sections {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+}
+
+.qualification__content {
+    display: none;
+}
+
+.qualification__content-active {
+    display: block;
+}
+
+.qualification__data {
+    display:grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+
+.qualification__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+}
+
+.side__img{
+  width: 160px;
+  position: absolute; /* Positionner l'image par rapport au parent */
+  left: 850px; /* Distance depuis la gauche */
+  animation: bounce 6s ease infinite; 
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0); /* Position de départ */
+    }
+    25% {
+      transform: translateY(-10px); /* Légèrement au-dessus */
+    }
+    50% {
+      transform: translateY(0); /* Retour à la position normale */
+    }
+    75% {
+      transform: translateY(-5px); /* Un petit bond supplémentaire */
+    }
+    100% {
+      transform: translateY(0); /* Retour final à la position normale */
+    }
+  }
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+    color: #d5931a;
+}
+
+.qualification__calender {
+    font-size: 0.7rem;
+}
+
+.qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+
+.block__qualification{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5%;
+    border-width: 2px 5px 8px 2px ;
+    box-shadow: 2px 2px 4px rgba(77, 75, 75, 0.1); /* Petite ombre */
+    transition: box-shadow 0.6s ease; /* Transition plus lente */
+}
+
+.block__qualification:hover {
+    box-shadow: 4px 4px 10px rgba(156, 155, 155, 0.3); /* Ombre plus accentuée au survol */
+}
+.qualification{
+    background-color: #f8f2e7;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .qualification__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .side__img{
+        display: none;
+      }
+
+    .qualification__sections {
+        display: block;
+        justify-content: center;
+        margin: 20px;
+    }  
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .qualification__container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+    .side__img{
+        display: none;
+      }
+
+    .qualification__sections {
+        display: block;
+        justify-content: center;
+    }
+      
+  }
+  
+  @media screen and (max-width: 576px) {
+    .qualification__sections {
+        grid-template-columns: 1fr; 
+    }
+    
+    .qualification__data {
+        display: block; 
+        margin-bottom: 20px;
+        grid-template-columns: initial
+    }
+        
+    .qualification__rounder, .qualification__line {
+         display: none; 
+    }
+        
+    .qualification__title {
+        font-size: 1.1rem;
+    }
+        
+    .qualification__subtitle {
+         font-size: 0.9rem;
+     }
+        
+    .qualification__calender {
+         font-size: 0.8rem;
+    }
+
+    .qualification__button {
+        margin: 0 var(--mb-0-75);
+    }
+
+    .side__img{
+        display: none;
+      }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .qualification__data {
+        gap: 0.5rem;
+    }
+    .side__img{
+        display: none;
+      }
+  }
+  

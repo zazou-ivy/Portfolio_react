@@ -1,0 +1,36 @@
+.quote {
+  padding: 50px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.589)), url('../../assets/retro1.jpg');
+  text-align: center;
+  border-left: 5px solid #333;
+  position: relative;
+  overflow: hidden; 
+}
+
+.quote blockquote {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+  display: inline-block;
+  white-space: nowrap; 
+  animation: marquee-right-to-left 25s linear infinite; 
+}
+
+@keyframes marquee-right-to-left {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+/* Nom de l'auteur */
+.quote span {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
