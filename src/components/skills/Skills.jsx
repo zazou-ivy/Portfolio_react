@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPhp, FaWordpress, FaAngular } from "react-icons/fa";
-import { SiMysql, SiDotnet, SiFlutter, SiJavascript, SiDocker, SiSwift } from "react-icons/si";
+import { SiMysql, SiDotnet, SiFlutter, SiJavascript, SiDocker, SiSwift, SiSomeIcon  } from "react-icons/si";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
 
