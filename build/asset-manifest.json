@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef13c49d.css",
+    "main.js": "/static/js/main.e062b784.js",
+    "static/media/672.svg": "/static/media/672.298d703002ed1732704d.svg",
+    "static/media/ans.PNG": "/static/media/ans.85397b3985cde8605783.PNG",
+    "static/media/woman4.png": "/static/media/woman4.4c5f1d4adefae0db415f.png",
+    "static/media/sudplafond.PNG": "/static/media/sudplafond.39758ad3efa5ca3c4127.PNG",
+    "static/media/bg20.jpg": "/static/media/bg20.073598cad5446514f162.jpg",
+    "static/media/wow1.png": "/static/media/wow1.de6b31991f8ec99aac8e.png",
+    "static/media/retro1.jpg": "/static/media/retro1.0d50ee061c3305806356.jpg",
+    "static/media/pianochat2.PNG": "/static/media/pianochat2.95363d126724e9b3bd4c.PNG",
+    "static/media/cv_software_developer.pdf": "/static/media/cv_software_developer.3ecc288018ac73921cdc.pdf",
+    "static/media/pokedex.PNG": "/static/media/pokedex.08ed8a4c75bdac801df2.PNG",
+    "static/media/phone2.jpg": "/static/media/phone2.9aac38ae5b025b87c0a3.jpg",
+    "static/media/marguerite.png": "/static/media/marguerite.8c5f61e392e9570328ba.png",
+    "static/media/hygdrasil.png": "/static/media/hygdrasil.0bdd0e5c1d677ae74227.png",
+    "static/media/fleur.png": "/static/media/fleur.1875a4fd018648a641c1.png",
+    "static/media/web_opti.png": "/static/media/web_opti.c5cee1c3cb6bc876cdac.png",
+    "static/media/retro5.jpg": "/static/media/retro5.56293969a5bcdcc24a96.jpg",
+    "static/media/software_dev.png": "/static/media/software_dev.5a57e478f5a6c8fc5dbf.png",
+    "static/media/fs_dev.png": "/static/media/fs_dev.d4039cd6bf2cf1c8026f.png",
+    "static/media/fr.jpg": "/static/media/fr.5bc711642e2ef84fd865.jpg",
+    "static/media/engl.png": "/static/media/engl.ab394595aecb07cfd806.png",
+    "index.html": "/index.html",
+    "main.ef13c49d.css.map": "/static/css/main.ef13c49d.css.map",
+    "main.e062b784.js.map": "/static/js/main.e062b784.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef13c49d.css",
+    "static/js/main.e062b784.js"
+  ]
+}
