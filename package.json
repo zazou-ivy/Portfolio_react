@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
     "i18next": "^24.2.3",
     "react": "^18.3.1",
